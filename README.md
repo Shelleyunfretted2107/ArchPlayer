@@ -173,8 +173,8 @@ speedBtn.textContent = '1.25x';
 ```
 archplayer/
 ├── ArchPlayer.html          # The player — the whole thing
-├── archplayer-logo.svg      # Main logo (120px)
-├── archplayer-favicon.svg   # Favicon (32px)
+├── fav.png      # Main logo 
+├── fav.png      # Favicon 
 ├── index.html               # Showcase website
 ├── LICENSE
 └── README.md
@@ -199,7 +199,7 @@ Pull requests are welcome. Keep changes focused and avoid adding external depend
 3. Make your changes in `ArchPlayer.html`
 4. Open a pull request with a short description of what changed and why
 
-For bugs or feature requests, open an [issue](https://github.com/YOUR_USERNAME/archplayer/issues).
+For bugs or feature requests, open an [issue](https://github.com/wizmax11/archplayer/issues).
 
 ---
 
