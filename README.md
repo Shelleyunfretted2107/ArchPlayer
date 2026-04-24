@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="archplayer-logo.svg" width="72" height="72" alt="ArchPlayer Logo">
+<img src="fav.png" width="72" height="72" alt="ArchPlayer Logo">
 
 # ArchPlayer
 
@@ -11,7 +11,7 @@
 [![No dependencies](https://img.shields.io/badge/Dependencies-None-6ee7b7?style=flat-square)]()
 [![Single file](https://img.shields.io/badge/Size-Single%20File-a78bfa?style=flat-square)]()
 
-[Download](https://github.com/YOUR_USERNAME/archplayer/releases/latest) · [Live Demo](https://YOUR_USERNAME.github.io/archplayer) · [Report a Bug](https://github.com/YOUR_USERNAME/archplayer/issues)
+[Download](https://github.com/YOUR_USERNAME/archplayer/releases/latest) · [Live Demo](https://wizmax11.github.io/archplayer) · [Report a Bug](https://github.com/YOUR_USERNAME/archplayer/issues)
 
 </div>
 
@@ -44,14 +44,14 @@ Everything is self-contained: the UI, the subtitle engine, the keyboard shortcut
 
 **Option 1 — Download the file directly:**
 
-1. Download [`ArchPlayer.html`](https://github.com/YOUR_USERNAME/archplayer/releases/latest)
+1. Download [`ArchPlayer.html`](https://github.com/wizmax11/archplayer/releases/latest)
 2. Open it in Chrome, Firefox, Edge, or any modern browser
 3. Drop a video onto the player or click "Open file"
 
 **Option 2 — Clone the repo:**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/archplayer.git
+git clone https://github.com/wizmax11/archplayer.git
 cd archplayer
 # open ArchPlayer.html in your browser
 ```
