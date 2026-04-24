@@ -11,7 +11,7 @@
 [![No dependencies](https://img.shields.io/badge/Dependencies-None-6ee7b7?style=flat-square)]()
 [![Single file](https://img.shields.io/badge/Size-Single%20File-a78bfa?style=flat-square)]()
 
-[Download](https://github.com/wizmax11/archplayer/releases/latest) · [Live Demo](https://wizmax11.github.io/archplayer) · [Report a Bug](https://github.com/wizmax11/archplayer/issues)
+[Download](https://github.com/wizmax11/archplayer/releases/latest) · [Live Demo](https://wizmax11.github.io/ArchPlayer/) · [Report a Bug](https://github.com/wizmax11/archplayer/issues)
 
 </div>
 
